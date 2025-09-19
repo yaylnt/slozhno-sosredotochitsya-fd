@@ -5,8 +5,19 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-image: url('../images/cover-image-dark.png');
+  --background-color: #000028;
+  --title-color: #db00ff;
+  --main-text-color: #f1b2ce;
+  --subtitle-text-color: #000028;
+  --accent-color: #ff0070;  
+  --section-title-color: var(--accent-color);
+}
+
+.theme-light .decorative_element {
+  display: inline;
+}
+
+.theme-light .decorative_element:before {
+  display: inline;
 }
