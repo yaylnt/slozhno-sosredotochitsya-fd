@@ -14,10 +14,10 @@
   --section-title-color: var(--accent-color);
 }
 
-.theme-light .decorative_element {
+.theme-dark .decorative_element {
   display: inline;
 }
 
-.theme-light .decorative_element:before {
+.theme-dark .decorative_element:before {
   display: inline;
 }
