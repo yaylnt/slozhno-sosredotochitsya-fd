@@ -131,10 +131,10 @@
   grid-row: 3;
   font-family: "IBM Plex Mono", sans-serif, monospace;
   font-size: 18px;
-  line-height: 23.3px;
   font-weight: bold;
   display: inline-block;
   inline-size: clamp(19.7em, 47.7vw, 27.27em);
+  max-inline-size: 355px;
   block-size: fit-content;
   color: var(--subtitle-text-color);
   align-self: center;
@@ -152,7 +152,6 @@
   font-size: 18px;
   gap: 50px;
   margin-block: 40px;
-  line-height: 23.3px;
   padding-inline: var(--general-margin-padding);
 }
 
@@ -196,7 +195,6 @@
 .card__text {
   font-weight: 400;
   color: var(--main-text-color);
-  line-height: 23.4px;
 }
 
 .link {
@@ -264,6 +262,10 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .header__subtitle {
+    max-inline-size: 364px;
+  }
+
   .main-content {
     margin-block: 60px;
     gap: 80px;
@@ -328,6 +330,10 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+  }
+
+  .header__subtitle {
+    max-inline-size: 491px;
   }
 
   .section {
