@@ -32,11 +32,11 @@
     --section-title-color: var(--main-text-color);
   }
 
-  .theme-light .decorative_element {
+  .decorative_element {
     display: none;
   }
 
-  .theme-light .decorative_element:before {
+  .decorative_element:before {
     display: none;
   }
 }

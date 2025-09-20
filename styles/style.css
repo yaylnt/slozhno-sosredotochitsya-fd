@@ -131,11 +131,11 @@
   grid-row: 3;
   font-family: "IBM Plex Mono", sans-serif, monospace;
   font-size: 18px;
-  line-height: 23.3px;
+  line-height: 1.299;
   font-weight: bold;
   display: inline-block;
   inline-size: clamp(19.7em, 47.7vw, 27.27em);
-  max-inline-size: 355px;
+  min-inline-size: 355px;
   block-size: fit-content;
   color: var(--subtitle-text-color);
   align-self: center;
@@ -149,7 +149,7 @@
 .main-content {
   display: grid;
   grid-auto-rows: auto;
-  line-height: 23.3px;
+  line-height: 1.299;
   font-family: "IBM Plex Mono", sans-serif, monospace;
   font-size: 18px;
   gap: 50px;
@@ -265,7 +265,7 @@
   }
 
   .header__subtitle {
-    max-inline-size: 364px;
+    min-inline-size: 364px;
   }
 
   .main-content {
@@ -335,7 +335,7 @@
   }
 
   .header__subtitle {
-    max-inline-size: 491px;
+    min-inline-size: 491px;
   }
 
   .section {
