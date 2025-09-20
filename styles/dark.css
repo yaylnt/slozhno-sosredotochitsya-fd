@@ -5,12 +5,12 @@
 */
 
 :root.theme-dark {
-  --background-image: url('../images/cover-image-dark.png');
+  --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
   --title-color: #db00ff;
   --main-text-color: #f1b2ce;
   --subtitle-text-color: #000028;
-  --accent-color: #ff0070;  
+  --accent-color: #ff0070;
   --section-title-color: var(--accent-color);
 }
 
