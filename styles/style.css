@@ -131,6 +131,7 @@
   grid-row: 3;
   font-family: "IBM Plex Mono", sans-serif, monospace;
   font-size: 18px;
+  line-height: 23.3px;
   font-weight: bold;
   display: inline-block;
   inline-size: clamp(19.7em, 47.7vw, 27.27em);
@@ -148,6 +149,7 @@
 .main-content {
   display: grid;
   grid-auto-rows: auto;
+  line-height: 23.3px;
   font-family: "IBM Plex Mono", sans-serif, monospace;
   font-size: 18px;
   gap: 50px;
