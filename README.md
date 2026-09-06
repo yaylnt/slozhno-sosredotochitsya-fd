@@ -1,9 +1,15 @@
-# Сложно сосредоточиться / Hard to concentrate
-An article about why it is sometimes difficult for us to concentrate, what affects concentration and how to improve it. The project is adapted to different screens: mobile, tablet, computer. It has a switching of themes (dark, light). The Java Script file was prepared in advance.
+# Сложно сосредоточиться
+
+Вёрстка адаптивного сайта для разных экранов (мобильный, планшет, десктоп) в светлой и тёмной темах, а также настроить автоматическое переключение между ними в зависимости от системных настроек пользователя.
 
 ------
-Used:
-- HTML
-- CSS (grid, flex, @media)
+## Стек
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css" alt="Skills" />
+</p>
 
-link: https://github.com/yaylnt/slozhno-sosredotochitsya-fd.git
+## Превью
+
+/ Появится позже /
+
+Запустить проект можно через Live server.
