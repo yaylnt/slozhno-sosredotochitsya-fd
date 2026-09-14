@@ -12,7 +12,8 @@
 
 https://github.com/user-attachments/assets/67245611-b6f9-42db-b127-be19bb89f490
 
-**Запустить проект можно через Live server.**
+#### Посмотреть demo: [click](https://yaylnt.github.io/slozhno-sosredotochitsya-fd/)
+Запустить проект можно через Live server.
 
 ## Мой вклад в проект
 
