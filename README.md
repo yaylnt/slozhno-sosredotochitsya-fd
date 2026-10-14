@@ -1,42 +1,45 @@
-# Сложно сосредоточиться
+**English** | [Русский](README.ru.md)
 
-Вёрстка адаптивного сайта для разных экранов (мобильный, планшет, десктоп) в светлой и тёмной темах, а также настроить автоматическое переключение между ними в зависимости от системных настроек пользователя.
+# Slozhno sosredotochitsya («Hard to Focus»)
 
-------
-## Стек
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css" alt="Skills" />
-</p>
+A responsive website layout for different screen sizes (mobile, tablet, desktop) with light and dark themes, plus automatic theme switching based on the user's system settings.
 
-## Превью
+---
+
+## Tech Stack
+
+[![Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
+## Preview
 
 https://github.com/user-attachments/assets/67245611-b6f9-42db-b127-be19bb89f490
 
-#### Посмотреть demo: [click](https://yaylnt.github.io/slozhno-sosredotochitsya-fd/)
-Запустить проект можно через Live server.
+Live demo: [click](https://yaylnt.github.io/slozhno-sosredotochitsya-fd/)
 
-## Мой вклад в проект
+To run the project locally, use Live Server.
 
-- Свёрстан адаптивный сайт по принципу Mobile first: медиазапросы для экранов >768px и >1024px, «резиновая» вёрстка без горизонтального скролла.
+## My Contribution
 
-- Реализованы светлая и тёмная темы с автоматическим переключением по системным настройкам через prefers-color-scheme и color-scheme.
+- Built a responsive site using the mobile-first approach: media queries for screens wider than 768px and 1024px, fluid layout with no horizontal scrolling.
 
-- Настроено ручное переключение тем кнопками: классы theme-light, theme-dark, theme-auto, активное состояние кнопки, pointer-events: none.
+- Implemented light and dark themes with automatic switching based on system settings via `prefers-color-scheme` and `color-scheme`.
 
-- Цвета, шрифты, размеры и отступы вынесены в CSS-переменные; темы переопределяются через отдельные файлы dark.css и light.css.
+- Added manual theme switching with buttons: `theme-light`, `theme-dark`, and `theme-auto` classes, an active button state, and `pointer-events: none`.
 
-- Лейаут построен преимущественно на Grid и Flexbox: шапка, секции, галерея, футер, выравнивание через justify-self, align-self, центрирование.
+- Moved colors, fonts, sizes, and spacing into CSS variables; themes override them through separate `dark.css` and `light.css` files.
 
-- Адаптивная типографика: размеры заголовков через clamp(), text-shadow, декоративные подложки через переиспользуемый класс.
+- Built the layout mainly with Grid and Flexbox: header, sections, gallery, footer, with alignment via `justify-self`, `align-self`, and centering.
 
-- Декоративные элементы — уголки, надпись REC, точка — реализованы через псевдоэлементы и абсолютное позиционирование.
+- Made typography responsive: heading sizes via `clamp()`, `text-shadow`, and decorative backgrounds through a reusable class.
 
-- Проработаны интерактивные состояния: :hover, :focus-visible, границы, подчёркивания, тени, доступные фокус-стили.
+- Created decorative elements (corner marks, the REC label, the dot) with pseudo-elements and absolute positioning.
 
-- Использована семантическая разметка: section, article, один h1, alt для изображений, loading="lazy" для галереи.
+- Worked out interactive states: `:hover`, `:focus-visible`, borders, underlines, shadows, and accessible focus styles.
 
-- Учтена доступность: декоративный текст скрыт от скринридеров через aria-hidden, продуманы фокусы и навигация.
+- Used semantic markup: `section`, `article`, a single `h1`, `alt` text for images, and `loading="lazy"` for the gallery.
 
-- Организована структура CSS: variables.css, style.css, dark.css, light.css; соблюдён каскад и порядок подключения.
+- Considered accessibility: decorative text is hidden from screen readers with `aria-hidden`, with careful focus handling and keyboard navigation.
 
-- Проверена корректность отображения в 6 комбинациях: светлая/тёмная/авто-тема при светлом и тёмном системном режиме.
+- Organized the CSS structure: `variables.css`, `style.css`, `dark.css`, `light.css`, keeping the cascade and import order consistent.
+
+- Verified correct rendering in 6 combinations: light / dark / auto theme under both light and dark system modes.
